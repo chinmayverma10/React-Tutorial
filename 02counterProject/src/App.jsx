@@ -5,9 +5,6 @@ import './App.css'
 
 function App() {
   let [counter, setCounter] = useState(0)
-
- 
-
   function increase () {
     if(counter < 20){
       setCounter(++counter)
@@ -18,7 +15,6 @@ function App() {
       setCounter(--counter)
     }
   }
-
   return (
     <>
     <h1>Chai aur react</h1>
