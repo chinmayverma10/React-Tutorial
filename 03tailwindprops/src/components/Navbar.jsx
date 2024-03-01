@@ -4,7 +4,6 @@ function Navbar(props) {
     console.log(props)
     return (
         <div>
-            
             <div class="relative w-full bg-white rounded-xl mb-10">
                 <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
                     <div class="inline-flex items-center space-x-2">
@@ -22,7 +21,7 @@ function Navbar(props) {
                                 ></path>
                             </svg>
                         </span>
-                        <span class="font-bold ">{props.Details.name}</span>
+                        <span class="font-bold text-black">{props.Details.name}</span>
                     </div>
                     <div class="hidden grow items-start lg:flex">
                         <ul class="ml-12 inline-flex space-x-8">
@@ -137,5 +136,4 @@ function Navbar(props) {
         </div>
     )
 }
-
 export default Navbar
